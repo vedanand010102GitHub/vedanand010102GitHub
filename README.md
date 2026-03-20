@@ -25,21 +25,21 @@
 
 ```c
 typedef struct {
-    char  *name        = "Ved Anand";                                                       // 👤 Who I am
-    char  *role        = "Embedded Software Engineer";                                     // 💼 What I do
-    char  *current     = "Trainee Engineer @ Vector India (Jan 2026 – Present)";          // 🏢 Where I work now
+    char  *name        = "Ved Anand";                                                        // 👤 Who I am
+    char  *role        = "Embedded Software Engineer";                                      // 💼 What I do
+    char  *current     = "Trainee Engineer @ Vector India (Jan 2026 – Present)";           // 🏢 Where I work now
     char  *extra       = "Lab Coordinator — guiding students on embedded projects";       // 🎓 Additional role
     char  *education   = "B.E. ECE — Sathyabama Institute (CGPA: 7.7)";                  // 🎓 My degree
-    char  *training    = "Embedded Systems Training — Vector India (Jul–Dec 2025)";       // 🛠️ Specialized training
-    char  *location    = "Hyderabad, India";                                               // 📍 Where I'm based
-    char  *seeking     = "Embedded SW Developer | Firmware | Linux Driver Roles";         // 🚀 Open to opportunities
-    char  *focus[]     = { "ARM7 Bare-Metal Firmware",         // register-level MCU programming
-                           "FreeRTOS / RTOS",                 // task scheduling, queues, priorities
-                           "Linux Systems",                   // OS-level development
-                           "CAN Bus",                         // automotive communication protocol
-                           "Socket Programming",             // network communication in C
-                           "POSIX Threads" };               // multi-threaded Linux apps
-    bool   open_to_work = true;                                                // ✅ Yes, hire me!
+    char  *training    = "Embedded Systems Training — Vector India (Jul–Dec 2025)";     // 🛠️ Specialized training
+    char  *location    = "Hyderabad, India";                                           // 📍 Where I'm based
+    char  *seeking     = "Embedded SW Developer | Firmware | Linux Driver Roles";     // 🚀 Open to opportunities
+    char  *focus[]     = { "ARM7 Bare-Metal Firmware",            // register-level MCU programming
+                           "FreeRTOS / RTOS",                    // task scheduling, queues, priorities
+                           "Linux Systems",                     // OS-level development
+                           "CAN Bus",                          // automotive communication protocol
+                           "Socket Programming",              // network communication in C
+                           "POSIX Threads" };                // multi-threaded Linux apps
+    bool   open_to_work = true;                                              // ✅ Yes, hire me!
 } Engineer;
 ```
 
