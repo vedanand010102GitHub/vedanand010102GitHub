@@ -1,19 +1,6 @@
-
-
 <!--
 ##Hi there 👋
 **vedanand010102GitHub/vedanand010102GitHub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 -->
 
 <div align="center">
@@ -25,7 +12,7 @@ Here are some ideas to get you started:
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=1&pause=999999&color=FFA657&center=true&vCenter=true&width=780&height=36&lines=Embedded+Software+Engineer+%7C+Linux+Systems+%7C+Firmware+Developer" alt="Role" />
 
 <!-- Skills - types char by char, pauses, erases, next set -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=4000&pause=2000&color=39D353&center=true&vCenter=true&width=780&height=52&lines=Embedded+C+%7C+ARM7+LPC2129%2FLPC2148+%7C+CAN+Bus;SPI+%7C+I2C+%7C+UART+%7C+Linux+Kernel;POSIX+Threads+%7C+Socket+Programming+%7C+TCP%2FIP;CAPL+Scripting+%7C+Bare+Metal+%7C+GDB+Debugger;Device+Drivers+%7C+ROS2+%7C+Makefile+%7C+GCC;Vector+CANoe+%7C+Keil+IDE+%7C+Proteus+%7C+Git;ARM7+LPC2129+%7C+POSIX+Threads+%7C+CAN+Bus" alt="Skills" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=4000&pause=2000&color=39D353&center=true&vCenter=true&width=780&height=52&lines=Embedded+C+%7C+ARM7+LPC2129%2FLPC2148+%7C+CAN+Bus;FreeRTOS+%7C+RTOS+%7C+ESP32+%7C+IoT+%7C+ThingSpeak;SPI+%7C+I2C+%7C+UART+%7C+Linux+Kernel;POSIX+Threads+%7C+Socket+Programming+%7C+TCP%2FIP;CAPL+Scripting+%7C+Bare+Metal+%7C+GDB+Debugger;Device+Drivers+%7C+ROS2+%7C+Makefile+%7C+GCC;Vector+CANoe+%7C+Keil+IDE+%7C+Proteus+%7C+Git" alt="Skills" />
 
 </div>
 
@@ -40,21 +27,23 @@ Here are some ideas to get you started:
 typedef struct {
     char  *name        = "Ved Anand";                                                       // 👤 Who I am
     char  *role        = "Embedded Software Engineer";                                     // 💼 What I do
-    char  *current     = "Trainee Engineer @ Vector India  (Jan 2026 – Present)";         // 🏢 Where I work now
+    char  *current     = "Trainee Engineer @ Vector India (Jan 2026 – Present)";          // 🏢 Where I work now
+    char  *extra       = "Lab Coordinator — guiding students on embedded projects";       // 🎓 Additional role
     char  *education   = "B.E. ECE — Sathyabama Institute (CGPA: 7.7)";                  // 🎓 My degree
-    char  *training    = "Embedded Systems Training — Vector India (Jul–Dec 2025)";     // 🛠️ Specialized training
-    char  *location    = "Hyderabad, India";                                           // 📍 Where I'm based
-    char  *seeking     = "Embedded SW Developer | Firmware | Linux Driver Roles";     // 🚀 Open to opportunities
-    char  *focus[]     = { "ARM7 Firmware",                 // microcontroller programming
-                           "Linux Systems",                // OS-level development
-                           "CAN Bus",                     // automotive communication protocol
-                           "Socket Programming",         // network communication in C
-                           "POSIX Threads" };           // multi-threaded Linux apps
+    char  *training    = "Embedded Systems Training — Vector India (Jul–Dec 2025)";       // 🛠️ Specialized training
+    char  *location    = "Hyderabad, India";                                               // 📍 Where I'm based
+    char  *seeking     = "Embedded SW Developer | Firmware | Linux Driver Roles";         // 🚀 Open to opportunities
+    char  *focus[]     = { "ARM7 Bare-Metal Firmware",         // register-level MCU programming
+                           "FreeRTOS / RTOS",                 // task scheduling, queues, priorities
+                           "Linux Systems",                   // OS-level development
+                           "CAN Bus",                         // automotive communication protocol
+                           "Socket Programming",             // network communication in C
+                           "POSIX Threads" };               // multi-threaded Linux apps
     bool   open_to_work = true;                                                // ✅ Yes, hire me!
 } Engineer;
 ```
 
-> 🔩 Embedded Software Engineer with hands-on experience in **Embedded C firmware on ARM7 (LPC2129/LPC2148)**, interrupt-driven programming, and peripheral interfacing.
+> 🔩 Embedded Software Engineer with hands-on experience in **bare-metal register-level firmware on ARM7 (LPC2129/LPC2148)**, **FreeRTOS-based task scheduling on ESP32**, interrupt-driven programming, and peripheral interfacing.
 > Actively expanding into **Linux systems programming**, TCP/IP socket programming, POSIX threads, and scalable embedded software design.
 
 </details>
@@ -81,6 +70,9 @@ typedef struct {
 ![Register Level](https://img.shields.io/badge/Register--Level_Programming-555555?style=for-the-badge)
 ![ADC GPIO RTC](https://img.shields.io/badge/ADC_%7C_GPIO_%7C_RTC-2D6A9F?style=for-the-badge)
 ![Bare Metal](https://img.shields.io/badge/Bare_Metal-FF6B35?style=for-the-badge)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-00979D?style=for-the-badge)
+![RTOS](https://img.shields.io/badge/RTOS-1A6B72?style=for-the-badge)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
 
 ### 🔌 Communication Protocols
 ![UART](https://img.shields.io/badge/UART-163E6B?style=for-the-badge)
@@ -97,16 +89,19 @@ typedef struct {
 ![Process Management](https://img.shields.io/badge/Process_Management-333333?style=for-the-badge)
 ![Socket Programming](https://img.shields.io/badge/Socket_Programming-005C84?style=for-the-badge)
 ![TCP/IP](https://img.shields.io/badge/TCP%2FIP-007EC6?style=for-the-badge)
+![FreeRTOS Task Model](https://img.shields.io/badge/FreeRTOS_Task_Model-00979D?style=for-the-badge)
 
 ### 🛠️ Tools & Environment
 ![Keil IDE](https://img.shields.io/badge/Keil_IDE-003153?style=for-the-badge)
+![Arduino IDE](https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![GCC](https://img.shields.io/badge/GCC-427819?style=for-the-badge)
 ![GDB](https://img.shields.io/badge/GDB-FF4500?style=for-the-badge)
 ![Makefile](https://img.shields.io/badge/Makefile-427819?style=for-the-badge)
 ![Proteus](https://img.shields.io/badge/Proteus-00457C?style=for-the-badge)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![ESP8266](https://img.shields.io/badge/ESP8266%2F32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![ThingSpeak](https://img.shields.io/badge/ThingSpeak-00979D?style=for-the-badge)
 
 ### 📚 Currently Learning
 ![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white)
@@ -151,24 +146,27 @@ typedef struct {
 </details>
 
 <details>
-<summary><b>🚦 EcoLight Maestro — Street Light Automation</b> &nbsp;<code>ARM7 LPC2148 | Embedded C | Interrupt-Driven</code></summary>
+<summary><b>🚦 EcoLight Maestro — Bare-Metal Street Light Automation</b> &nbsp;<code>ARM7 LPC2148 | Embedded C | Bare-Metal | Register-Level</code></summary>
 <br/>
 
-> Interrupt-driven street light automation on **ARM7 LPC2148** with intelligent power optimization.
+> **Bare-metal register-level** street light automation on **ARM7 LPC2148** — no HAL, no abstraction layer, direct peripheral register access.
 
 | Feature | Details |
 |---|---|
-| Scheduling | RTC-based time scheduling for automatic ON/OFF |
-| Sensing | ADC-driven LDR sensing for ambient light detection |
-| Control | Keypad interface for real-time RTC reconfiguration via external interrupts |
-| Optimization | Adaptive LED intensity control algorithm |
-| Architecture | Modular firmware with separate source/header files |
+| Scheduling | RTC peripheral registers (RTCALRM, RTCCIIR) for automatic ON/OFF time scheduling |
+| Sensing | ADC0 register-level LDR sensing (ADCR, ADDR) for ambient light detection |
+| Control | VIC-configured external interrupts (EINT0/EINT2) for keypad RTC reconfiguration |
+| Optimization | Adaptive PWM-based LED intensity control algorithm for power saving |
+| Architecture | Modular firmware — separate source/header files per peripheral, zero HAL dependency |
 
 **Stack:**
 ![ARM7](https://img.shields.io/badge/ARM7_LPC2148-0091BD?style=flat-square&logo=arm)
 ![Embedded C](https://img.shields.io/badge/Embedded_C-00599C?style=flat-square&logo=c)
+![Bare Metal](https://img.shields.io/badge/Bare_Metal-FF6B35?style=flat-square)
+![Register Level](https://img.shields.io/badge/Register--Level-555555?style=flat-square)
 ![RTC](https://img.shields.io/badge/RTC-2D6A9F?style=flat-square)
 ![ADC](https://img.shields.io/badge/ADC-427819?style=flat-square)
+![VIC](https://img.shields.io/badge/VIC_Interrupts-8B0000?style=flat-square)
 ![Keil](https://img.shields.io/badge/Keil_IDE-003153?style=flat-square)
 
 [![View on GitHub](https://img.shields.io/badge/View_on_GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vedanand010102GitHub/ecolight-maestro)
@@ -176,24 +174,32 @@ typedef struct {
 </details>
 
 <details>
-<summary><b>⛏️ Smart Mining Safety — IoT Real-Time Monitor</b> &nbsp;<code>ESP8266 | NodeMCU | IoT</code></summary>
+<summary><b>⛏️ Smart Mining Safety — RTOS & IoT Real-Time Safety Monitor</b> &nbsp;<code>ESP32 | FreeRTOS | RTOS | IoT | ThingSpeak</code></summary>
 <br/>
 
-> Real-time monitoring system for **underground mining environments** with wireless alerting.
+> **5-task FreeRTOS application** on ESP32 dual-core for real-time underground mining hazard detection — preemptive priority scheduling, dual-core isolation, ThingSpeak IoT dashboard.
 
 | Feature | Details |
 |---|---|
-| Sensors | Gas concentration, temperature, humidity monitoring |
-| Transmission | Wireless data via NodeMCU ESP8266 over Wi-Fi |
-| Safety | Threshold-based automated alerts for worker protection |
+| RTOS Architecture | 5 FreeRTOS tasks with preemptive priority scheduling on ESP32 dual-core |
+| AlertTask | Priority 5 — highest priority, preempts all tasks, fires buzzer+LED in microseconds |
+| Core Isolation | Safety pipeline (Core 1) fully isolated from WiFi/ThingSpeak (Core 0) |
+| Sensors | DHT11 (temp/humidity), MQ gas sensor (ADC1), KY-026 flame sensor |
+| IPC | Thread-safe `xQueue` between all tasks — no shared globals, no race conditions |
+| Display | 16×2 I2C LCD with mutex-protected I2C bus, live readings every 2s |
+| Cloud | HTTPS ThingSpeak dashboard — remote supervisor monitoring outside mine |
 
 **Stack:**
-![ESP8266](https://img.shields.io/badge/ESP8266-E7352C?style=flat-square&logo=espressif)
-![NodeMCU](https://img.shields.io/badge/NodeMCU-00979D?style=flat-square)
-![IoT](https://img.shields.io/badge/IoT_Sensors-25A244?style=flat-square)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-00979D?style=flat-square)
+![RTOS](https://img.shields.io/badge/RTOS-1A6B72?style=flat-square)
+![IoT](https://img.shields.io/badge/IoT-25A244?style=flat-square)
+![ThingSpeak](https://img.shields.io/badge/ThingSpeak-00979D?style=flat-square)
 ![Embedded C](https://img.shields.io/badge/Embedded_C-00599C?style=flat-square&logo=c)
+![I2C](https://img.shields.io/badge/I2C-2D6A9F?style=flat-square)
 
-[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vedanand010102GitHub/smart-mining-safety)
+[![View on GitHub](https://img.shields.io/badge/View_on_GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vedanand010102GitHub/Smart-Mining-Safety-ESP32-FreeRTOS)
+[![Project README](https://img.shields.io/badge/Project_README-00979D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vedanand010102GitHub/Smart-Mining-Safety-ESP32-FreeRTOS/blob/main/README.md)
 
 </details>
 
@@ -311,7 +317,6 @@ typedef struct {
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vedanand)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vedanand010102GitHub)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vedanand010102@gmail.com)
-
 
 </div>
 </details>
